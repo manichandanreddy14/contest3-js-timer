@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        text-align: center;
+        background-color: black;
+       }
+header{
+    margin-block: 50px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#box{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+#timebox{
+    display: flex;
+    justify-content: center;
+    
+}
+#display{
+    text-decoration: underline;
+}
+div{
+    color: white;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="stopwatch">
+        <header>Multiple Timer App</header>
+        <div id="timebox">
+            <div id="box" style="background-color:#34344A ;">
+              <div id="t1">Set Time:</div>
+              <div id="display">hh:mm:ss</div>
+              <button id="start" style="background-color:rgb(218, 225, 79); border-color: rgb(218, 225, 79); border-radius: 10px; color: white;">Start</button>
+         </div>
+         
+    </div>
+    <button id="tx2" style="margin-block: 30px; border: 1px solid black; border-radius: 10px; padding-inline: 30px; padding-block:10px ;">Current Timers</button>
+<div id="text-3">You Have No Timer Currently</div>
+    <style src="code.js"></style>
+</body>
+</html>
